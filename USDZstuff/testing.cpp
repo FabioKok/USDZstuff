@@ -1,6 +1,9 @@
+#define NOMINMAX
 #include <iostream>
 #include <stdio.h>
 #include <cmath>
+#include <pxr/usd/usd/stage.h>
+
 
 int main(int argc, char* argv[]) {
 	
