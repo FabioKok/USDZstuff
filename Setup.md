@@ -13,7 +13,7 @@ Make the above change to the build script
 
 ![image](https://github.com/user-attachments/assets/9c2f66d9-7dd8-4616-8eed-957a9d89f46a)
 
-##Once you have made all of these changes run the command bellow to build USD
+## Once you have made all of these changes run the command bellow to build USD
 ```python .\build_scripts\build_usd.py C:\Path\to\your\OpenUSD\USD-install --no-docs --no-embree --no-python --no-debug-python --no-draco --no-prman --no-materialx --no-alembic --no-hdf5 --no-opencolorio --no-openimageio --no-usdview --no-openvdb --no-ptex --no-imaging```
 ### Use this command and ensure that you have installed all necessary dependencies (Python & potentially more)
 
