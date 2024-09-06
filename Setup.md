@@ -27,3 +27,4 @@ Make the above change to the build script
 ## In **C++ > Code Generation > Runtime library** ensure that this is set to MT for multithreaded
 ## Go to **LINKER > Inport > Additional Dependencies** and ensure that this location matches the location of your C:\Path\to\your\OpenUSD\USD-install\libs
 ## Go to the Go to **C++ > General > Include directories**. Ensure that this matches C:\Path\to\your\OpenUSD\USD-install\include
+## Go to the Properties > Build actions > Pre-build and update the script from ```xcopy /Y /I "C:\Users\Seth\Desktop\OpenUSD\new-try\bin\*.dll" "$(TargetDir)``` to ```xcopy /Y /I "C:\Path\to\your\OpenUSD\USD-install\bin\*.dll" "$(TargetDir)```
