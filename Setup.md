@@ -7,8 +7,7 @@
 # Update the build script with the following changes:
 !!THIS NEEDS TO BE ADDED!!
 
-``python .\build_scripts\build_usd.py C:\Path\to\your\OpenUSD\USD-install --no-docs --no-embree --no-python --no-debug-python --no-draco --no-prman --no-materialx --no-alembic --no-hdf5 --no-opencolorio --no-openimageio --no-usdview --no-openvdb --no-ptex --no-imaging
-``
+```python .\build_scripts\build_usd.py C:\Path\to\your\OpenUSD\USD-install --no-docs --no-embree --no-python --no-debug-python --no-draco --no-prman --no-materialx --no-alembic --no-hdf5 --no-opencolorio --no-openimageio --no-usdview --no-openvdb --no-ptex --no-imaging```
 ### Use this command and ensure that you have installed all necessary dependencies (Python & potentially more)
 
 
