@@ -107,7 +107,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Seth\Desktop\OpenUSD\new-try\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fabio K\Desktop\UCF\SD1\OpenUSD\USD-install\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -120,11 +120,11 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Seth\Desktop\OpenUSD\new-try\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>usd_ar.lib;usd_arch.lib;usd_gf.lib;usd_js.lib;usd_kind.lib;usd_ndr.lib;usd_pcp.lib;usd_pegtl.lib;usd_plug.lib;usd_sdf.lib;usd_sdr.lib;usd_tf.lib;usd_trace.lib;usd_ts.lib;usd_usd.lib;usd_usdGeom.lib;usd_usdHydra.lib;usd_usdLux.lib;usd_usdMedia.lib;usd_usdPhysics.lib;usd_usdProc.lib;usd_usdRender.lib;usd_usdRi.lib;usd_usdShade.lib;usd_usdSkel.lib;usd_usdUI.lib;usd_usdUtils.lib;usd_usdVol.lib;usd_vt.lib;usd_work.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Fabio K\Desktop\UCF\SD1\OpenUSD\USD-install\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>tbb_debug.lib;tbb_preview_debug.lib;tbb_preview.lib;tbb.lib;tbbbind.lib;tbbbind_debug.lib;tbbmalloc_debug.lib;tbbmalloc_proxy_debug.lib;tbbmalloc_proxy.lib;tbbmalloc.lib;tbbproxy_debug.lib;tbbproxy.lib;usd_ar.lib;usd_arch.lib;usd_gf.lib;usd_js.lib;usd_kind.lib;usd_ndr.lib;usd_pcp.lib;usd_pegtl.lib;usd_plug.lib;usd_sdf.lib;usd_sdr.lib;usd_tf.lib;usd_trace.lib;usd_ts.lib;usd_usd.lib;usd_usdGeom.lib;usd_usdHydra.lib;usd_usdLux.lib;usd_usdMedia.lib;usd_usdPhysics.lib;usd_usdProc.lib;usd_usdRender.lib;usd_usdRi.lib;usd_usdShade.lib;usd_usdSkel.lib;usd_usdUI.lib;usd_usdUtils.lib;usd_usdVol.lib;usd_vt.lib;usd_work.lib;zlib.lib;zlibstatic.lib</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
-      <Command>xcopy /Y /I "C:\Users\Seth\Desktop\OpenUSD\new-try\bin\*.dll" "$(TargetDir)"</Command>
+      <Command>xcopy /Y /I "C:\Users\Fabio K\Desktop\UCF\SD1\OpenUSD\USD-install\bin\*.dll" "$(TargetDir)"</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -135,7 +135,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Seth\Desktop\OpenUSD\new-try\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fabio K\Desktop\UCF\SD1\OpenUSD\USD-install\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -145,11 +145,11 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Seth\Desktop\OpenUSD\new-try\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\Fabio K\Desktop\UCF\SD1\OpenUSD\USD-install\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>usd_ar.lib;usd_arch.lib;usd_gf.lib;usd_js.lib;usd_kind.lib;usd_ndr.lib;usd_pcp.lib;usd_pegtl.lib;usd_plug.lib;usd_sdf.lib;usd_sdr.lib;usd_tf.lib;usd_trace.lib;usd_ts.lib;usd_usd.lib;usd_usdGeom.lib;usd_usdHydra.lib;usd_usdLux.lib;usd_usdMedia.lib;usd_usdPhysics.lib;usd_usdProc.lib;usd_usdRender.lib;usd_usdRi.lib;usd_usdShade.lib;usd_usdSkel.lib;usd_usdUI.lib;usd_usdUtils.lib;usd_usdVol.lib;usd_vt.lib;usd_work.lib</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
-      <Command>xcopy /Y /I "C:\Users\Seth\Desktop\OpenUSD\new-try\bin\*.dll" "$(TargetDir)"</Command>
+      <Command>xcopy /Y /I "C:\Users\Fabio K\Desktop\UCF\SD1\OpenUSD\USD-install\bin\*.dll" "$(TargetDir)"</Command>
     </PreBuildEvent>
     <ProjectReference>
       <LinkLibraryDependencies>true</LinkLibraryDependencies>
